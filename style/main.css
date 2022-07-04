@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+  font-family: "Fraunces", serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-top: 80px;
+  height: 577px;
+  background: #2c343e;
+  border-radius: 10px;
+}
+.section:hover {
+  cursor: pointer;
+}
+
+.section__title {
+  padding-top: 100px;
+  margin-bottom: 32px;
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+.section__title:hover {
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  color: orange;
+}
+
+.section__paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 540px;
+  margin-left: 370px;
+  padding-bottom: 86px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.section__cards {
+  width: 1110px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section__card {
+  width: 350px;
+  height: 382px;
+  background: #0e8784;
+  border-radius: 8px;
+}
+.section__card:hover {
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 0.5s linear;
+  transition: -webkit-transform 0.5s linear;
+  transition: transform 0.5s linear;
+  transition: transform 0.5s linear, -webkit-transform 0.5s linear;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: orange;
+}
+
+.section__card__img {
+  margin-top: 72px;
+  margin-left: 136px;
+  margin-bottom: 56px;
+}
+
+.section__card__img__active {
+  margin-top: 83px;
+  margin-bottom: 67px;
+}
+
+.section__card__title {
+  font-family: "Fraunces", serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #fefcf7;
+}
+
+.section__card__paragraf {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
