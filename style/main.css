@@ -41,7 +41,7 @@ body {
   transition: transform 0.5s linear, -webkit-transform 0.5s linear;
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
-  color: orange;
+  color: rgb(0, 255, 42);
 }
 
 .section__paragraf {
